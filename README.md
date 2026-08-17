@@ -10,7 +10,7 @@ By combining automated **SPSS syntax routines** with **ArcGIS Online**, raw Stat
 * **Custom Layer Control:** Features an exclusive visibility layer group allowing users to seamlessly switch between 2016 Population, 2021 Population, and 2016–2021 Population Change views.
 * **Interactive Data Exploration:** Includes interactive pop-up cards for quick city summaries, live attribute tables, and spatial search functionality.
 * **Urban Focus:** Highlights demographic shifts across major urban centers meeting the 50,000+ population threshold.
-* 
+
 ### Data Pipeline & Cleaning Process (SPSS)
 Raw Statistics Canada census data was cleaned, transformed, and structured in **SPSS** to build optimized datasets for spatial visualization in ArcGIS Online.
 #### Step 1: Variable Standardization & Cleaning
