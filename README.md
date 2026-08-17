@@ -31,4 +31,5 @@ Raw Statistics Canada census data was cleaned, transformed, and structured in **
 #### Step 4: Population Threshold Filtering & GIS Export
 * **Conditional Subsetting:** Applied conditional filter logic (`SELECT IF`) to isolate target urban centers into distinct analytical tiers (>50,000 and >500,000 population thresholds).
 <img width="884" height="494" alt="Screenshot 2026-08-17 at 5 32 15 AM" src="https://github.com/user-attachments/assets/7210e242-106a-4268-83dc-9b37112fd15f" />
+
 Then exported cleaned SPSS data tables to structured CSV files for seamless attribute joining and mapping inside ArcGIS Online.
