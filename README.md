@@ -23,7 +23,7 @@ Raw Statistics Canada census data was cleaned, transformed, and structured in **
 * **Calculated Metrics:** Derived `CHANGE_POP`, a new feature calculating net population growth between 2016 and 2021 (`2021 Count - 2016 Count`). Output saved as `SPSS_Project_StatCan-MERGE.sav`.
 
 #### Step 3: Dataset Restructuring (Longitudinal Format)
-* **Temporal Tracking:** Created an explicit temporal tracking variable (`COMPUTE YEAR = 2016', `COMPUTE YEAR =`2021`) across individual yearly files.
+* **Temporal Tracking:** Created an explicit temporal tracking variable (`COMPUTE YEAR = 2016, `COMPUTE YEAR =`2021`) across individual yearly files.
 <img width="920" height="499" alt="Screenshot 2026-08-17 at 5 31 44 AM" src="https://github.com/user-attachments/assets/f211d797-c098-45dd-a03a-8ea22eeb669c" />
 <img width="893" height="497" alt="Screenshot 2026-08-17 at 5 31 56 AM" src="https://github.com/user-attachments/assets/6aeabc87-0c78-4f64-9821-365cd544c406" />
 
