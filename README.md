@@ -10,6 +10,7 @@ By combining automated **SPSS syntax routines** with **ArcGIS Online**, raw Stat
 * **Custom Layer Control:** Features an exclusive visibility layer group allowing users to seamlessly switch between 2016 Population, 2021 Population, and 2016–2021 Population Change views.
 * **Interactive Data Exploration:** Includes interactive pop-up cards for quick city summaries, live attribute tables, and spatial search functionality.
 * **Urban Focus:** Highlights demographic shifts across major urban centers meeting the 50,000+ population threshold.
+* 
 ### Data Pipeline & Cleaning Process (SPSS)
 Raw Statistics Canada census data was cleaned, transformed, and structured in **SPSS** to build optimized datasets for spatial visualization in ArcGIS Online.
 #### Step 1: Variable Standardization & Cleaning
@@ -33,3 +34,32 @@ Raw Statistics Canada census data was cleaned, transformed, and structured in **
 <img width="884" height="494" alt="Screenshot 2026-08-17 at 5 32 15 AM" src="https://github.com/user-attachments/assets/7210e242-106a-4268-83dc-9b37112fd15f" />
 
 Then exported cleaned SPSS data tables to structured CSV files for seamless attribute joining and mapping inside ArcGIS Online.
+
+### Web Mapping & GIS Application Setup (ArcGIS Online)
+
+#### Step 1: Feature Layer Styling & Hierarchy
+* **Layer Import & Styling:** Imported cleaned SPSS datasets into ArcGIS Online Map Viewer and styled individual visualization layers for 2016 Population, 2021 Population, and Population Change (2016–2021).
+* **Group Layer Hierarchy:** Grouped all demographic layers under a structured folder (`Population Datasets`) to maintain a clean cartographic visual hierarchy.
+* **Exclusive Visibility Configuration:** Configured group visibility mode to **Exclusive**, creating an intuitive radio-button UX that lets users toggle between single map layers seamlessly.
+
+#### Step 2: Pop-up Customization & User Interface
+* **Dynamic Pop-ups:** Configured custom pop-up cards utilizing dynamic field tokens (e.g., `{CMANAME}`, `{C1_COUNT_2016}`, `{C1_COUNT_2021}`) to display localized census summaries upon interaction.
+* **Fixed Position UI:** Set pop-up displays to a fixed bottom-right location to keep the main map canvas unobstructed during exploration.
+
+#### Step 3: Interactive Web App Deployment (ArcGIS Instant Apps)
+* **Web App Architecture:** Converted the static web map into a standalone **ArcGIS Instant App** to deliver a responsive, presentation-ready web dashboard.
+* **Attribute Table Access:** Enabled interactive **Layer List** controls and activated full **Attribute Table** viewing capabilities, allowing users to inspect raw tabular data and export CSVs.
+* **Search & Location Tools:** Integrated spatial geocoding and attribute search functionality, allowing users to query specific Census Metropolitan Areas directly.
+* **Public Deployment:** Configured public sharing permissions across the Web Map, Feature Layers, and Instant App.
+
+### 2016 Map of Toronto
+<img width="1470" height="819" alt="Screenshot 2026-08-17 at 6 29 38 AM" src="https://github.com/user-attachments/assets/c686caff-f038-4d7b-b1cf-4f93d17be517" />
+
+### 2021 Map of Toronto
+<img width="1470" height="819" alt="Screenshot 2026-08-17 at 6 31 01 AM" src="https://github.com/user-attachments/assets/394fd8db-1260-49f6-9ad5-871f1759ac80" />
+
+### Population Change from 2016 to 2021 of Toronto
+<img width="1470" height="819" alt="Screenshot 2026-08-17 at 6 31 12 AM" src="https://github.com/user-attachments/assets/e358856c-554d-4c88-bfa2-154758a5f448" />
+
+### Pop Up Window of Toronto's Data
+<img width="463" height="431" alt="Screenshot 2026-08-17 at 6 32 28 AM" src="https://github.com/user-attachments/assets/8152a5f6-9161-46fe-b5d4-4c804c7e0184" />
