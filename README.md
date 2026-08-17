@@ -1,5 +1,5 @@
 # Canada Population Interactive Map
-🚀 **[Click Here to Launch the Live Interactive Map](https://bit.ly/4qldSpb)**
+🚀 **[Click Here to Launch the Live Interactive Map]([https://bit.ly/4qldSpb](https://utoronto.maps.arcgis.com/apps/instant/basic/index.html?appid=6c9ba3a118f54bea8a1643e974a6d23c&locale=en))**
 ## Overview
 This interactive GIS web application visualizes demographic trends and population changes across Canadian Census Metropolitan Areas (CMAs) between 2016 and 2021. 
 
